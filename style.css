@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color:rgb(248, 244, 244);
+  }
+  
+  h1 {
+    margin-top: 50px;
+    color: rgb(248, 0, 0);
+  }
+
+  button {
+    background-color: #c117c7;
+    color: rgb(248, 244, 244);
+    border: none;
+    padding: 20px 59px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    margin-top: 7px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #b79c00;
+}
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .block {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 1px;
+  }
+  
